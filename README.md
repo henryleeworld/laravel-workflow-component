@@ -26,5 +26,5 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/p4M3lRc.png)
+![](https://i.imgur.com/6i2fRNj.png)
 > 可以針對特定業務需求，量身製作執行過程的工作流程

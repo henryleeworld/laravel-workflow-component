@@ -1,8 +1,9 @@
 <?php
 
+namespace Database\Seeders;
+
 use Illuminate\Database\Seeder;
-use Faker\Factory as Faker;
-use App\Post;
+use App\Models\Post;
 
 class PostsTableSeeder extends Seeder
 {
@@ -13,6 +14,6 @@ class PostsTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(Post::class, 20)->create();
+        Post::factory()->times(20)->create();
     }
 }

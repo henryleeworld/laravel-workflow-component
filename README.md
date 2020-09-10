@@ -1,4 +1,4 @@
-# Laravel 7 工作流程元件
+# Laravel 8 工作流程元件
 
 引入 zerodahero 的 laravel-workflow 套件來擴增使用 Symfony 工作流程元件用來管理一個工作流程或有限狀態機。
 

@@ -1,13 +1,13 @@
 <?php
 
 return [
-    'straight'   => [
-        'type'          => 'workflow',
+    'straight' => [
+        'type' => 'workflow',
         'marking_store' => [
             'type'      => 'multiple_state',
             'arguments' => ['currentPlace']
         ],
-        'supports'      => ['App\Models\Post'],
+        'supports' => ['App\Models\Post'],
         'places' => ['draft', 'review', 'rejected', 'published'],
         'transitions' => [
             'to_review' => [
@@ -23,5 +23,5 @@ return [
                 'to' => 'rejected'
             ]
         ],
-    ]
+    ],
 ];

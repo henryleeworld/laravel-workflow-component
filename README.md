@@ -1,4 +1,4 @@
-# Laravel 10 工作流程元件
+# Laravel 11 工作流程元件
 
 引入 zerodahero 的 laravel-workflow 套件來擴增使用 Symfony 工作流程元件用來管理一個工作流程或有限狀態機。
 
@@ -26,5 +26,5 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/hQJFDMJ.png)
+![](https://i.imgur.com/L29rQ1i.png)
 > 可以針對特定業務需求，量身製作執行過程的工作流程

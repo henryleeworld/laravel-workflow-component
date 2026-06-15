@@ -9,6 +9,7 @@ use ZeroDaHero\LaravelWorkflow\Traits\WorkflowTrait;
 
 class Post extends Model
 {
+    /** @use HasFactory<\Database\Factories\PostFactory> */
     use HasFactory, SoftDeletes, WorkflowTrait;
 
     public $table = 'posts';
@@ -16,7 +17,7 @@ class Post extends Model
     /**
      * The attributes that are mass assignable.
      *
-     * @var array<int, string>
+     * @var list<string>
      */
     protected $fillable = [
         'title',
